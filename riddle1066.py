@@ -58,5 +58,5 @@ def solve():
             if (right == 0) and (b[lastpos-1] + r -1 < n):
                 result = -1
     print(result,'\n')
-
+    # End
 solve()
