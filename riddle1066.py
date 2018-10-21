@@ -59,4 +59,5 @@ def solve():
                 result = -1
     print(result,'\n')
     # End
+    # adada
 solve()
