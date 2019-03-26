@@ -1,3 +1,4 @@
+import sys
 def solve():
     line = input()
     n = int(line.split(' ')[0])
@@ -14,5 +15,6 @@ def solve():
             maxn -= 1
 
     print(rslt)
+    var = sys.getrefcount()
 
 solve()
